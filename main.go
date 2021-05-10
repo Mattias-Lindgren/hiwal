@@ -104,7 +104,7 @@ func main() {
 	}
 
 	result.Colors["color8"] = "#" + colors.NewHex(result.Colors["color0"]).Lighten(0.05).Hex()
-	result.Special["cursor"] = "#" + colors.NewHex(result.Colors["color3"]).Lighten(0.15).Saturate(0.75).Hex()
+	result.Special["cursor"] = "#" + colors.NewHex(result.Colors["color2"]).Lighten(0.10).Saturate(0.10).Hex()
 
 	printLine("Done!", colorPrint.FgGreen)
 
